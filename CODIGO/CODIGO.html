@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Barra de pesquisa com autocomplete</title>
+  <link rel="stylesheet" href="CODIGO.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Barra de pesquisa</h2>
+    <div class="search-container">
+      <div class="search">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" id="search-input" placeholder="Pesquisar...">
+        <div class="icon" id="icon"><ion-icon name="search-outline"></ion-icon></div>
+      </div>
+      <ul id="suggestions-list"></ul>
+    </div>
+  </div>
+  <script src="CODIGO.js"></script>
+</body>
+</html>
