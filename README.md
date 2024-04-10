@@ -16,7 +16,7 @@ O projeto consiste na implementação de uma barra de pesquisa com recurso de au
 
 ## EXECUTANDO O PROJETO:
 1. **Configuração do Banco de Dados:**
-   - Antes de executar o site, é necessário importar o arquivo `DATABASE.sql`. Se não estiver familiarizado com o processo de importação, [confira este curso](https://github.com/VILHALVA/CURSO-DE-MARIADB) para orientações detalhadas.
+   - Antes de executar o site, é necessário importar o arquivo `DATABASE.sql`.
 
 2. **Configuração do PHP:**
    - Abra o arquivo `CODIGO.php` e ajuste as configurações do banco de dados:
