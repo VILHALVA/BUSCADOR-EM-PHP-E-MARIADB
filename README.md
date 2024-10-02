@@ -28,11 +28,18 @@ O projeto consiste na implementação de uma barra de pesquisa com recurso de au
      $database = "search";
      ```
 
-3. **Executando o Aplicativo:**
+3. **Executando o Aplicativo com Apache:**
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
-   - Acesse o formulário no navegador visitando `http://localhost/CODIGO/CODIGO.html`.
+   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/CODIGO.html](http://localhost/CODIGO/CODIGO.html).
 
-4. **Interagir com a Barra de Pesquisa:**
+4. **Executando o Aplicativo com `php.exe`:**
+   - Alternativamente, você pode iniciar o servidor diretamente no diretório `./CODIGO` com o comando abaixo:
+   ```bash
+   php -S localhost:8080
+   ```
+   - Em seguida, acesse o formulário no navegador através do endereço: [http://localhost:8080/CODIGO.html](http://localhost:8080/CODIGO.html).
+
+5. **Interagir com a Barra de Pesquisa:**
    - Agora você pode interagir com a barra de pesquisa. Digite uma consulta na barra de pesquisa e veja as sugestões de autocomplete sendo exibidas dinamicamente.
    - Clique em uma sugestão para preencher automaticamente o campo de pesquisa com o termo selecionado.
    - Clique no ícone de lupa para realizar a pesquisa, que abrirá os resultados em uma nova aba.
